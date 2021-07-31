@@ -42,7 +42,7 @@ var changeColor = (color) => {
 var setSquare = () => {
 	color = getColor(numberRam);
 	clickColors = chooseColor();
-	display.textContent = clickColors();
+	display.textContent = clickColors;
 	console.log(clickColors)
 	console.log('a' + uplevel)
 	if(numberRam === 6){
