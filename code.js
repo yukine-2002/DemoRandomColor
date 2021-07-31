@@ -61,9 +61,8 @@ var setSquare = () => {
 					messageDisplay.textContent = 'Correct';
 					reset.textContent = "Play Again";
 					changeColor(getColors);
-					display.textContent = clickColors();
 					resets();
-
+					setSquare();
 				}else{
 					square[i].style.background = '#333'
 					messageDisplay.textContent = 'try Again';
